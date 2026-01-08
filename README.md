@@ -1,29 +1,29 @@
-# Daily Web Development Practice 🚧
+# Daily Web Development Practice
 
-This repository is my personal **build log** — a place where ideas turn into code,
-mistakes turn into lessons, and small experiments slowly compound into real skills.
+A quiet place to think in code.
 
-I’m starting from the fundamentals (HTML, CSS, JavaScript) and deliberately
-working my way toward full-stack MERN development — one commit at a time.
+This repository is my design-driven practice space — where structure,
+layout, motion, and interaction are explored through small, focused builds.
 
-Nothing here is random.
-Everything here is practice.
+I’m starting with the fundamentals and moving deliberately toward
+full-stack MERN development, prioritizing **clarity over speed** and
+**craft over noise**.
 
-## Tech Stack (Evolving)
-- HTML — structure before style
-- CSS — layout, motion, and visual thinking
-- JavaScript — logic, behavior, and control
-- React — coming soon
-- Node.js & Express — coming soon
-- MongoDB — coming soon
+## Stack (In Progress)
+- HTML — semantic structure
+- CSS — layout, spacing, motion
+- JavaScript — interaction & behavior
+- React — upcoming
+- Node.js / Express — upcoming
+- MongoDB — upcoming
 
-## Why this repo exists
-- To stay consistent, not perfect
-- To document progress, not hide mistakes
-- To strengthen fundamentals before chasing frameworks
-- To experiment freely without “production pressure”
+## Philosophy
+- Design before decoration
+- Fundamentals before frameworks
+- Progress over polish
+- Fewer projects, better thinking
 
-This is where I **learn in public**.
+This is not a portfolio.
+This is where the portfolio is born.
 
-> This repository is a workshop, not a showroom.
-> Expect experiments, rough edges, and growth.
+> Built slowly. Pushed intentionally.
