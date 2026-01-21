@@ -65,6 +65,26 @@ function label(name) {
     return name.replace(/^\d+_/, "").replace(/-/g, " ");
 }
 
+async function exists(path) {
+    try {
+        const r = await fetch(path, { method: "HEAD" });
+        return r.ok;
+    } catch {
+        return false;
+    }
+}
+
+async function init() {
+    const available = [];
+
+    for (const p of projects) {
+        const ok = await exists(`${p}/index.html`);
+        if (ok) available.push(p);
+    }
+
+    render(available);
+}
+
 function render(items) {
     list.innerHTML = "";
     items.forEach(p => {
@@ -74,6 +94,8 @@ function render(items) {
         div.onclick = () => load(p, div);
         list.appendChild(div);
     });
+
+    if (items.length) load(items[0], list.children[0]);
 }
 
 function load(p, el) {
@@ -82,9 +104,15 @@ function load(p, el) {
     el.classList.add("active");
 }
 
-render(projects);
-
 search.oninput = e => {
     const q = e.target.value.toLowerCase();
-    render(projects.filter(p => p.toLowerCase().includes(q)));
+    const visible = [...list.children].filter(d =>
+        d.textContent.toLowerCase().includes(q)
+    );
+    visible.forEach(d => d.style.display = "block");
+    [...list.children]
+        .filter(d => !visible.includes(d))
+        .forEach(d => d.style.display = "none");
 };
+
+init();
