@@ -11,7 +11,9 @@ const projects = [
     "10_auto-text-effect",
     "11_background-slider",
     "12_blurry-loading",
-    "13_button-ripple-effect"
+    "13_button-ripple-effect",
+    "14_content-placeholder",
+    "15_custom-range-slider"
 ];
 
 const list = document.getElementById("list");
