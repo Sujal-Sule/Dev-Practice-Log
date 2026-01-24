@@ -13,7 +13,8 @@ const projects = [
     "12_blurry-loading",
     "13_button-ripple-effect",
     "14_content-placeholder",
-    "15_custom-range-slider"
+    "15_custom-range-slider",
+    "16_dad-jokes"
 ];
 
 const list = document.getElementById("list");
