@@ -14,7 +14,8 @@ const projects = [
     "13_button-ripple-effect",
     "14_content-placeholder",
     "15_custom-range-slider",
-    "16_dad-jokes"
+    "16_dad-jokes",
+    "17_double-click-heart"
 ];
 
 const list = document.getElementById("list");
