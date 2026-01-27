@@ -16,7 +16,8 @@ const projects = [
     "15_custom-range-slider",
     "16_dad-jokes",
     "17_double-click-heart",
-    "18_double-vertical-slider"
+    "18_double-vertical-slider",
+    "19_drag-n-drop"
 ];
 
 const list = document.getElementById("list");
