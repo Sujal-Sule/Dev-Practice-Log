@@ -18,7 +18,8 @@ const projects = [
     "17_double-click-heart",
     "18_double-vertical-slider",
     "19_drag-n-drop",
-    "20_drawing-app"
+    "20_drawing-app",
+    "21_drink-water"
 ];
 
 const list = document.getElementById("list");
