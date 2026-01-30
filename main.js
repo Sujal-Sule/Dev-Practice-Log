@@ -19,7 +19,8 @@ const projects = [
     "18_double-vertical-slider",
     "19_drag-n-drop",
     "20_drawing-app",
-    "21_drink-water"
+    "21_drink-water",
+    "22_event-keycodes"
 ];
 
 const list = document.getElementById("list");
