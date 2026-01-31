@@ -20,7 +20,8 @@ const projects = [
     "19_drag-n-drop",
     "20_drawing-app",
     "21_drink-water",
-    "22_event-keycodes"
+    "22_event-keycodes",
+    "23_expanding-cards"
 ];
 
 const list = document.getElementById("list");
