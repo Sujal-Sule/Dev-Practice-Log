@@ -21,7 +21,8 @@ const projects = [
     "20_drawing-app",
     "21_drink-water",
     "22_event-keycodes",
-    "23_expanding-cards"
+    "23_expanding-cards",
+    "24_faq-collapse"
 ];
 
 const list = document.getElementById("list");
