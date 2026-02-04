@@ -22,7 +22,8 @@ const projects = [
     "21_drink-water",
     "22_event-keycodes",
     "23_expanding-cards",
-    "24_faq-collapse"
+    "24_faq-collapse",
+    "25_feedback-ui-design"
 ];
 
 const list = document.getElementById("list");
