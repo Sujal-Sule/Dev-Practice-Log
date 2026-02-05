@@ -23,7 +23,8 @@ const projects = [
     "22_event-keycodes",
     "23_expanding-cards",
     "24_faq-collapse",
-    "25_feedback-ui-design"
+    "25_feedback-ui-design",
+    "26_form-input-wave"
 ];
 
 const list = document.getElementById("list");
