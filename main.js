@@ -24,7 +24,8 @@ const projects = [
     "23_expanding-cards",
     "24_faq-collapse",
     "25_feedback-ui-design",
-    "26_form-input-wave"
+    "26_form-input-wave",
+    "27_github-profiles"
 ];
 
 const list = document.getElementById("list");
