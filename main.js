@@ -26,7 +26,8 @@ const projects = [
     "25_feedback-ui-design",
     "26_form-input-wave",
     "27_github-profiles",
-    "28_good-cheap-fast"
+    "28_good-cheap-fast",
+    "29_hidden-search",
 ];
 
 const list = document.getElementById("list");
