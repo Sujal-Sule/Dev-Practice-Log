@@ -28,6 +28,7 @@ const projects = [
     "27_github-profiles",
     "28_good-cheap-fast",
     "29_hidden-search",
+    "30_hoverboard",
 ];
 
 const list = document.getElementById("list");
