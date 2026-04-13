@@ -29,6 +29,7 @@ const projects = [
     "28_good-cheap-fast",
     "29_hidden-search",
     "30_hoverboard",
+    "31_image-carousel",
 ];
 
 const list = document.getElementById("list");
